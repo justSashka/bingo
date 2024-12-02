@@ -1,0 +1,86 @@
+body {
+  background-color: black;
+}
+
+.bingoContainer {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 800px;
+  background-color: black;
+}
+
+.bingoItem {
+  width: 150px;
+  height: 150px;
+  border: 1px solid wheat;
+  text-align: center;
+  margin: 2px 2px;
+  color: white;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.bingoItem:hover {
+  border: 1px solid green;
+}
+
+.active {
+  background-color: Green;
+  color: black;
+  transition: 0.5s;
+}
+
+.summary {
+  background-color: white;
+  color: black;
+  margin: auto;
+}
+
+.summaryContainer {
+  background-color: black;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.low {
+  background-color: white;
+  color: black;
+}
+
+.lowMid {
+  background-color: green;
+  color: white;
+}
+
+.mid {
+  background-color: blue;
+  color: white;
+}
+
+.midHigh {
+  background-color: purple;
+  color: black;
+}
+
+.high {
+  background-color: orange;
+  color: black;
+}
+
+.highVeryHigh {
+  background-color: orangered;
+  color: black;
+}
+
+.veryHigh {
+  background-color: maroon;
+  color: black;
+}
